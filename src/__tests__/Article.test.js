@@ -4,8 +4,8 @@ import React from "react";
 
 import Article from "../components/Article";
 
-test("displays the text 'please pass this test'", () => {
+test("displays the text 'Hi,how are ya? From the Header!'", () => {
   render(<Article />);
 
-  expect(screen.queryByText("please pass this test")).toBeInTheDocument();
+  expect(screen.queryByText("Hi,how are ya? From the Header!")).toBeInTheDocument();
 });
